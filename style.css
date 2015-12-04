@@ -1,0 +1,169 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+/*Header*/
+
+.l_header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+    list-style-type: none;
+    height: 59px; width: 100%;
+    margin: 0;
+    padding-left: 16px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e5e5e5;
+
+    
+}
+
+.l_header li {
+	float: left;
+	height: 59px;
+	line-height: 59px;
+	vertical-align: middle;
+}
+
+#goo_icon {
+	height: 32px;
+	margin-right: 16px;
+	vertical-align: middle;
+}
+
+#search_box {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 38px; width: 588px;
+	border: 1px solid #4285f4;
+	padding: 0;
+	margin: 0;
+
+	background-color: white;
+}
+
+#search_text {
+	position: absolute;
+	display: block;
+	height: 26px; width: 529px;
+	margin: 0;
+	padding: 6px 9px 0 9px;
+	float: left;
+
+	border-style: none;
+	font: 16px arial, sans-serif;
+}
+
+textarea, input {
+	outline: none;
+	outline-color: transparent;
+	outline-style: none;
+
+}
+
+#mic_button {
+	position: relative;
+	display: inline;
+	margin: 0;
+	padding: 10px;
+	height: 20px;
+	float: right;
+	bottom: 0;
+}
+
+#search_button {
+	height: 19px; 
+	vertical-align: middle;
+	background-color: #4285f4;
+	color: white;
+	padding: 10px;
+	padding-bottom: 11px;
+
+	transform: translateY(-1px);
+	border-radius: 0 2px 2px 0;
+}
+
+
+.r_header {
+	position: absolute;
+	list-style-type: none;
+	height: 59px;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	font-size: 13px;
+}
+
+.r_header li {
+	position: relative;
+	display: block;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+
+	color: black;
+	text-align: center;
+	padding: 0 8px;
+	text-decoration: none;
+	
+	
+
+}
+
+
+.r_header li img {
+	padding: 0;
+	height: 20px;
+	vertical-align: middle;
+}
+
+#launch_icon {
+	height: 16px;
+}
+
+#photo {
+	height: 32px;
+	border-radius: 16px;
+	padding: 0;
+}
+
+#icon_li {
+	padding: 6px 16px;
+	line-height: 0;
+}
+
+#photo_li {
+	padding:0 24px 0 16px;
+	line-height: 32px;
+	vertical-align: middle; 
+}
+
+/*Menu*/
+
+.menu_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 110px;
+}
+
+.menu_bar li {
+	position: relative;
+	top: 52px;
+	display: block;
+	float: left;
+	margin: 8px;
+	padding: 8px;
+	height: 59px;
+
+	background-color: #00ffff;
+	text-align: center;
+	vertical-align: middle;
+
+	font-size: small;
+}
