@@ -1,46 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Mock Google Search 2</title>
+	<link rel="stylesheet" type="text/css" href="style-reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Mock Google Search</title>
 </head>
 <body>
-	<!--Page Header-->
-	<ul class="l_header">
-	  	<li><img src="images/googlelogo_color_272x92dp.png" id="goo_icon"></li>
-	 	<li>
-			<div id="search_box">
-				<form action="https://www.google.com/" method="POST" name="google_search">	
-					<input type="text" name="search_term" id="search_text">
-					<img src="images/mic.png" id="mic_button">
-				</form>
+	<div id="container">
+		<!--Page Header-->
+		<ul class="l_header">
+		  	<li><img src="images/googlelogo_color_272x92dp.png" id="goo_icon"></li>
+		 	<li>
+				<div id="search_box">
+					<form action="https://www.google.com/" method="POST" name="google_search">	
+						<input type="text" name="search_term" id="search_text">
+						<img src="images/mic.png" id="mic_button">
+					</form>
+				</div>
+			</li>
+			<li><img src="images/mag_glass.png" id="search_button"></li>
+		</ul>
+		<ul class="r_header" style="float:right; list-style-type:none;">
+		  	<li style="padding-right: 10px; color: #6d6d6d;">Chris</li>
+			<li class="icon_li"><img src="images/app-launcher-150x150.png" id="launch_icon"></li>
+			<li class="icon_li"><img src="images/bell-inside-circle.png" id="notif_icon"></li>
+			<li id="photo_li"><img src="images/photo.jpg" id="photo"></li>
+		</ul>
+
+		<!--Menu Bar-->
+		<ul class="menu_bar">
+			<li>Web</li>
+			<li>Images</li>
+			<li>Maps</li>
+			<li>News</li>
+			<li>Shopping</li>
+			<li>More</li>
+			<li>Search Tools</li>
+			<ul class="r_menu_buttons" style="float:right; list-style-type:none;">
+				<li id="priv_toggle">
+					<img src="images/ic_person_black_18dp.png" id="priv_button"><img src="images/ic_public_black_18dp.png" id="pub_button">
+				</li>
+				<li id="gear_button"><img src="images/ic_settings_black_24dp.png"></li>
+			</ul>
+		</ul>
+		<!--Search Content-->
+		<div id="search_content" style="border-top:1px solid #ddd">
+			<div id="search_results">
+				<span id="search_num">A lot of search results... (0.00 seconds)</span>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
+				<div>
+					<a class="search_link" href="#">Something - Wikipedia, the free encyclopedia</a><br>
+					<span class="search_address">https://en.wikipedia.org/wiki/<strong>Something</strong></span><br>
+					<span class="search_text"><strong>Something</strong> is an indefinite pronoun. ... "<strong>Something</strong>" (Beatles song), a 1969 song by The Beatles, written by George Harrison; "<strong>Something</strong>" (TVXQ song), 2014 ...
+					‎Philosophy and language - Music - Albums - ‎See also</span>
+				</div>
 			</div>
-		</li>
-		<li><img src="images/mag_glass.png" id="search_button"></li>
-	</ul>
-	<ul class="r_header" style="float:right; list-style-type:none;">
-	  	<li style="padding-right: 10px; color: #6d6d6d;">Chris</li>
-		<li class="icon_li"><img src="images/app-launcher-150x150.png" id="launch_icon"></li>
-		<li class="icon_li"><img src="images/bell-inside-circle.png" id="notif_icon"></li>
-		<li id="photo_li"><img src="images/photo.jpg" id="photo"></li>
-	</ul>
-
-
-	<!--Menu Bar-->
-	<ul class="menu_bar">
-		<li>Web</li>
-		<li>Images</li>
-		<li>Maps</li>
-		<li>News</li>
-		<li>Shopping</li>
-		<li>More</li>
-		<li>Search Tools</li>
-		<ul class="r_menu_buttons" style="float:right; list-style-type:none;">
-			<li>
-				<div id="user_button">button1</div></li>
-			<li>
-				<div id="globe_button">button2</div></li>
-			<li><div id="gear_button">button3</div></li>
+		</div>
+		<div id="push"></div>
+	</div> <!--End Container-->	
+	<ul id="footer">
+		<li class="f_links1">Advertising</li>
+		<li class="f_links1">Business</li>
+		<li class="f_links1">About</li>
+		<ul id="f_links2">
+			<li>Privacy</li>
+			<li>Terms</li>
+			<li>Settings</li>
 		</ul>
 	</ul>
 </body>
